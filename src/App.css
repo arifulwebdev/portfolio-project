@@ -8,7 +8,7 @@
   --primary-hover-red: #f33501;
 }
 body{
-  font-family: "Roboto Condesed" sans-serif;
+  font-family: "Roboto Condensed" sans-serif !important;
 }
 /**********************Navbar***************************/
 .logo{
@@ -116,5 +116,28 @@ border-top: 0.187rem solid var(--primary-dark);
 @media(max-width: 768){
   .particles-canvas{
     display:none;
+  }
+}
+
+/**********************ABOUT ME***************************/
+.photo_wrap{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.profile_img{
+  width: 16rem;
+  border-radius: 50%;
+  padding: 3rem;
+  border: 1px solid var(--primary-orange);
+}
+
+.about_heading{
+text-transform: uppercase;
+color: var(--primary-orange);
+}
+@media(max-width: 468px) {
+  .profile_img{
+    width: 10rem;
   }
 }
