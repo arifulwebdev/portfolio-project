@@ -1,5 +1,5 @@
 import React from "react";
-import ariful from "../ariful.jpg"
+import ariful from "../ariful.jpg";
 
 const AboutMe = () => {
     return (
