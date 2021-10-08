@@ -5,15 +5,8 @@ import img2 from "../img2.jpg";
 import { faFacebookF, faGoogle } from '@fortawesome/free-brands-svg-icons';
 import {faSearchPlus} from '@fortawesome/free-solid-svg-icons';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-// React popup box
-import{popupboxManager, popboxContainer} from "react-popupbox";
 const Portfolio = () => {
-    // img1
-    const openpopupboximg1=() =>{
-        <>
-        
-        </>
-    }
+
     return (
         <div className="portfolio-wrapper">
             <div className="container">
